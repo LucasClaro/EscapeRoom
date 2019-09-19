@@ -1,0 +1,3 @@
+﻿  Origem.c
+C:\Users\lucas\source\repos\teste2\teste2\Origem.c(137,17): warning C4013:  'IsInside' indefinido; assumindo extern retornando int
+  teste2.vcxproj -> C:\Users\lucas\source\repos\teste2\Debug\teste2.exe

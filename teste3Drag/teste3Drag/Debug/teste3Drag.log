@@ -1,0 +1,6 @@
+﻿  Origem.c
+C:\Users\lucas\source\repos\teste3Drag\teste3Drag\Origem.c(139,17): warning C4013:  'IsInside' indefinido; assumindo extern retornando int
+C:\Users\lucas\source\repos\teste3Drag\teste3Drag\Origem.c(141,38): warning C4013:  'MapearDistancia' indefinido; assumindo extern retornando int
+C:\Users\lucas\source\repos\teste3Drag\teste3Drag\Origem.c(159,25): warning C4013:  'VerificarBordas' indefinido; assumindo extern retornando int
+C:\Users\lucas\source\repos\teste3Drag\teste3Drag\Origem.c(164,36): warning C4013:  'IsInsideImagem' indefinido; assumindo extern retornando int
+  teste3Drag.vcxproj -> C:\Users\lucas\source\repos\teste3Drag\Debug\teste3Drag.exe
