@@ -8,6 +8,7 @@
 
 #include "Funcoes.h"
 #include "Struct.h"
+#include "Fase1.h"
 
 int main(void) {
 	ALLEGRO_DISPLAY* janela = NULL;
@@ -53,7 +54,7 @@ int main(void) {
 	// Configura o título da janela
 	al_set_window_title(janela, "Arrastar coisas");
 
-	saida1.beatmap = al_load_bitmap("Imgs/saida.png");
+	saida1.beatmap = al_load_bitmap("Imgs/esquerda.png");
 	mensagem.beatmap = al_load_bitmap("Imgs/mensagem.png");
 	mensagemTravada.beatmap = al_load_bitmap("Imgs/mensagemtravada.png");
 	if (!saida1.beatmap || !mensagem.beatmap || !mensagemTravada.beatmap) {
@@ -126,7 +127,7 @@ int main(void) {
 			}
 			else if (evento.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN) {
 				if (IsInside(evento.mouse.x, evento.mouse.y, saida1)) {
-					//////////////////
+					acerto = JogarFase1(janela, fila_eventos, acerto);
 				}
 			}
 		}

@@ -1,3 +1,3 @@
-﻿  Struct.h
-  Origem.c
+﻿  Origem.c
+C:\Users\lucas\Documents\GitHub\EscapeRoom\Teste4Modulos\Teste4Modulos\Fase1.h(134): warning C4715:  'JogarFase1': nem todos os caminhos de controle retornam um valor
   Teste4Modulos.vcxproj -> C:\Users\lucas\Documents\GitHub\EscapeRoom\Teste4Modulos\Debug\Teste4Modulos.exe

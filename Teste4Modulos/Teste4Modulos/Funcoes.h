@@ -8,6 +8,9 @@
 
 #include "Struct.h"
 
+#ifndef Funcoes_H
+#define Funcoes_H
+
 
 int IsInside(int x, int y, Objeto objeto) {
 	if (x >= objeto.x && x <= (objeto.x + objeto.largura) && y >= objeto.y && y <= (objeto.y + objeto.altura)) {
@@ -33,3 +36,5 @@ int IsInsideImagem(Objeto menor, Objeto maior) {
 	}
 	return 0;
 }
+
+#endif
