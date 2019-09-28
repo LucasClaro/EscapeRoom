@@ -52,7 +52,7 @@ int main(void) {
 		return -1;
 	}
 	// Configura o título da janela
-	al_set_window_title(janela, "Arrastar coisas");
+	al_set_window_title(janela, "Separando coisas");
 
 	saida1.beatmap = al_load_bitmap("Imgs/esquerda.png");
 	mensagem.beatmap = al_load_bitmap("Imgs/mensagem.png");
